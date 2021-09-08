@@ -15,6 +15,7 @@ export const featuredPortfolio = [
     id: 3,
     title: "Portfolio Website",
     img: "assets/img/project.jpg",
+    link: "https://coralieab.github.io/reactPortfolio/",
   },
   {
     id: 4,
@@ -80,5 +81,6 @@ export const personalPortfolio = [
     id: 1,
     title: "Portfolio Website",
     img: "assets/img/project.jpg",
+    link: "https://coralieab.github.io/reactPortfolio/",
   },
 ];

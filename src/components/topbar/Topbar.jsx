@@ -1,6 +1,6 @@
 import React from 'react';
 import "./topbar.scss";
-import {Person, Mail} from "@material-ui/icons";
+import {Person, Mail, GitHub} from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -15,6 +15,10 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <div className="itemContainer">
             <Mail className="icon" />
             <span>cabadie.pro@gmail.com</span>
+          </div>
+          <div className="itemContainer">
+            <GitHub className="icon" />
+            <span><a href="https://github.com/CoralieAb">GitHub</a></span>
           </div>
         </div>
         <div className="right">

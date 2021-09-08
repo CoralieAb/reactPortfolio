@@ -8,7 +8,7 @@
   cursor: pointer;
 
   &.active {
-    background-color: $secondaryColor;
+    background-color: $lighterSecondaryColor;
     color: $mainColor;
   }
 }

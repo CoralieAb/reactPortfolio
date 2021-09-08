@@ -3,16 +3,14 @@
 .intro {
   background-color: $mainColor;
   display: flex;
-  //align-items: center;
 
   .left {
     flex: 0.5;
     overflow: hidden;
-    align-self: center;
 
     .imgContainer {
-      width: 700px;
-      height: 700px;
+      width: 650px;
+      height: 650px;
       //mettre max-width si jamais
       background-color: $secondaryColor;
       border-radius: 50%;
